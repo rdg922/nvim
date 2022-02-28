@@ -25,6 +25,8 @@ require'nvim-treesitter.configs'.setup {
 
 
 return require('packer').startup(function()
+  use 'tpope/vim-dispatch'
+  use 'junegunn/fzf'
   use 'habamax/vim-godot'
   use 'wbthomason/packer.nvim'
   use {'neoclide/coc.nvim', branch = 'release'}

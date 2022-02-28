@@ -6,5 +6,12 @@
   "explorer.file.showHiddenFiles": true,
   "explorer.file.reveal.auto": false,
   "explorer.icon.enableNerdfont": true,
-  "explorer.previewAction.onHover": false
+  "explorer.previewAction.onHover": false,
+  "languageserver": {
+    "godot": {
+      "host": "127.0.0.1",
+      "filetypes": ["gdscript"],
+      "port": 6008
+    }
+  }
 }
